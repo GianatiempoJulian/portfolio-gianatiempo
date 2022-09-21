@@ -313,8 +313,50 @@
         }
     }
     
-    @media (min-width:468px) and (max-width:491px) {
-        /*a52*/
+    @media (min-width:300px) and (max-width:376px) {
+        /***** ABOUT ME *****/
+        .ab-box p {
+            font-size: 13px;
+            line-height: 14px !important;
+            padding: 10px;
+        }
+        /***** PROJECTS *****/
+        .project-card {
+            min-width: 90px;
+            min-height: 70px;
+        }
+        .project-view {
+            margin-top: 15px;
+        }
+        .project-link {
+            background-color: #8976f7;
+            color: aliceblue;
+            padding: 0.7rem;
+            text-decoration: none;
+            border-radius: 10px 20px;
+        }
+        .card-text {
+            display: none;
+        }
+        /***** CONTACT-FORM *****/
+        #msg_area {
+            min-width: 80vw;
+            min-height: 65px;
+            max-width: 80vw;
+            max-height: 65px;
+        }
+        .btn {
+            margin-top: 10px;
+            height: 35px;
+            background-color: #8976f7;
+            color: aliceblue;
+            width: 60px !important;
+            border-radius: 10px 20px;
+        }
+    }
+    /*370*/
+    
+    @media (min-width:376px) and (max-width:491px) {
         /***** ABOUT ME *****/
         .ab-box p {
             font-size: 13px;
